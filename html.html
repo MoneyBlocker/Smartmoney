@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accompagnateur Financier</title>
+    <link rel="stylesheet" href="stylesaccomp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Accompagnateur Financier</h1>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#market-data">Données de Marché</a></li>
+                    <li><a href="#currency-converter">Convertisseur de Devises</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Gérez vos finances avec nous</h2>
+                <p>Votre partenaire pour une meilleure gestion financière et des investissements intelligents.</p>
+                <button onclick="window.location.href = 'register.html'">Commencez Maintenant</button>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="container">
+                <h2>Nos Services</h2>
+                <div class="service-cards">
+                    <div class="card" id="service1">
+                        <a href="service1.html">
+                            <img src="blocage argent.jpeg" alt="Service 1">
+                            <div class="card-content">
+                                <h3>Blocage d'Argent</h3>
+                                <p>Gérez et sécurisez vos économies en bloquant des fonds pour des périodes spécifiques.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" id="service2">
+                        <a href="service2.html">
+                            <img src="investissements.jpeg" alt="Service 2">
+                            <div class="card-content">
+                                <h3>Investissement</h3>
+                                <p>Découvrez des opportunités d'investissement intelligentes adaptées à votre profil de risque.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card" id="service3">
+                        <a href="service3.html">
+                            <img src="conseils financieres.jpeg" alt="Service 3">
+                            <div class="card-content">
+                                <h3>Conseils Financiers</h3>
+                                <p>Obtenez des conseils financiers personnalisés pour optimiser vos finances personnelles.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="market-data" id="market-data">
+            <div class="container">
+                <h2>Données de Marché</h2>
+                <div id="stock-data">
+                    <!-- Market data will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+        <section class="currency-converter" id="currency-converter">
+            <div class="container">
+                <h2>Convertisseur de Devises</h2>
+                <div id="currency-converter-container">
+                    <input type="number" id="amount" placeholder="Montant">
+                    <select id="from-currency"></select>
+                    <select id="to-currency"></select>
+                    <button onclick="convertCurrency()">Convertir</button>
+                    <div id="conversion-result"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Accompagnateur Financier. Tous droits réservés.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="button-group">
+                <button class="button-primary" onclick="window.location.href = 'register.html'">S'inscrire</button>
+                <button class="button-secondary" onclick="window.location.href = 'connection.html'">Se connecter</button>
+            </div>
+        </div>
+    </footer>
+    <script src="scriptsaccomp.js"></script>
+</body>
+</html>
+

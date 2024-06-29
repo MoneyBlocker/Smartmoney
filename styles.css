@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-title {
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 30px;
+}
+
+.btn-block {
+    border-radius: 30px;
+}
+
+.form-check-label a {
+    color: #007BFF;
+}
+
+.form-check-label a:hover {
+    text-decoration: underline;
+}
+
+.social-login img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+}
+
+.toggle-input-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: #007BFF;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.toggle-input-btn:hover {
+    background-color: #0056b3;
+}
+
+#phone.iti {
+    width: 100%;
+}
+
+.iti--allow-dropdown {
+    width: 100%;
+}
+
+.d-none {
+    display: none;
+}
